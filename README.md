@@ -9,3 +9,6 @@ for about an hour and a half, so there's not much here. It does a few basic thin
 * Makes Emacs open in full-screen
 * Adds proper C formatting
 * Sets electric pair mode on 
+
+When you install emacs, simply delete any other directories that might be probed for the 
+config file, place this in ~/.config, and you're done! Happy Emacs'ing! 
