@@ -1,6 +1,9 @@
-;; Emacs Configuration File
-;; Bisshoy Anwar
-;; Licensed under the WTFPL 
+;; TITLE:  Emacs Configuration File
+;; AUTHOR: Bisshoy Anwar
+
+;;
+;; GENERAL CONFIGURATIONS 
+;;
 
 ;; C FORMATTING -- GNU STYLE
 (setq c-default-style "linux"
@@ -17,10 +20,31 @@
 
 ;; LINE NUMBERS
 (global-display-line-numbers-mode 1)
+(setq display-line-numbers-type 'relative) 
 
 ;; SCROLL BAR REMOVAL
 (scroll-bar-mode -1)
 
+;; TABS, NOT SPACES
+(setq-default indent-tabs-mode t)
+(setq-default tab-width 4)
+
 ;; THEME  
 (add-to-list 'custom-theme-load-path "~/.config/emacs/themes")
 (load-theme 'dracula t)
+
+;;
+;; ORG MODE CONFIGURATIONS 
+;;
+
+;; FONT MARKERS HIDDEN 
+(setq org-hide-emphasis-markers t)
+
+;; INDENTATION FOR ORG-MODE
+(add-hook 'org-mode-hook 'org-indent-mode)
+
+;; LINKS ARE FOLLOWED 
+(setq org-return-follows-link  t)
+
+;; WRAP LINES 
+(add-hook 'org-mode-hook 'visual-line-mode)
