@@ -25,13 +25,13 @@
 ;; SCROLL BAR REMOVAL
 (scroll-bar-mode -1)
 
-;; SLIME
+;; SLIME (UNCOMMENT AFTER INSTALLING SLIME)
 ;; MAKE SURE TO REPLACE THE FIRST PATH WITH WHATEVER
 ;; COMPILER YOU'RE USING IF IT'S NOT SBCL
-(setq inferior-lisp-program "/usr/bin/sbcl")
-(add-to-list 'load-path "/usr/share/emacs/site-lisp/slime/")
-(require 'slime)
-(slime-setup)
+; (setq inferior-lisp-program "/usr/bin/sbcl")
+; (add-to-list 'load-path "/usr/share/emacs/site-lisp/slime/")
+; (require 'slime)
+; (slime-setup)
 
 ;; TABS, NOT SPACES
 (setq-default indent-tabs-mode t)
