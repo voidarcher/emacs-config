@@ -1,6 +1,6 @@
 <div align="center"> 
   
-# RuneMacs
+# Rune Emacs
 
 </div>
 This is what will eventually become RuneMacs (pronounced "roon eemacks").
