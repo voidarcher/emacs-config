@@ -23,3 +23,7 @@ not even have a purpose. In any case, it has one thing going for it at the momen
 
 ### Install Process
 Personally, I'm partial to having a /tmp directory in my home folder. 
+```sh
+mkdir tmp
+cd tmp/
+```
