@@ -27,8 +27,13 @@ most likely:
 * That's...pretty much it. As is part of the point of this
 
 ### Install Process
-Personally, I'm partial to having a /tmp directory in my home folder. 
+You're going to need someplace to build this thing. Personally, I'm partial to having a 
+~/tmp directory in my home folder to do random stuff in before wiping. 
 ```sh
 mkdir tmp
 cd tmp/
+```
+After that, you'll want to clone this github repo into your .emacs.d directory
+```sh
+git clone https://github.com/voidarcher/RuneMacs.git ~/.emacs.d
 ```
