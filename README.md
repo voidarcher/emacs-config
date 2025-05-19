@@ -17,4 +17,9 @@ not even have a purpose. In any case, it has one thing going for it at the momen
 "installation" process.
 
 ## Installation
+### Prerequisites
+* Emacs (only tested on 28.2+)
+* That's...pretty much it. As is part of the point of this
+
+### Install Process
 Personally, I'm partial to having a /tmp directory in my home folder. 
