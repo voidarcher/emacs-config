@@ -25,8 +25,10 @@ most likely:
 3) You've tried Emacs and already miss sane finger movement
 
 ### Prerequisites
-The only real requirement is 
-[GNU Emacs](https://www.gnu.org/software/emacs/). Other than that, 
+The only real requirement is [GNU Emacs](https://www.gnu.org/software/emacs/). Other than that, 
+you really don't need anything else. Remember, this is meant to be Emacs for someone who really 
+doesn't know how to get started. At least at this point. There really isn't much going on under 
+the hood at this point. 
 
 ### Installation
 (Full discolure: if you're reading this, I haven't actually *tested* this out yet. I'll get 
