@@ -14,7 +14,12 @@
 This is what will eventually become RuneMacs (pronounced "roon eemacks"). For now, it's basically
 just a config file. I'm...actually a little unclear on what the license is even for...it might
 not even have a purpose. In any case, it has one thing going for it at the moment: a very easy
-"installation" process.
+"installation" process. 
+
+This is essentially meant to be an absolute noob's version of Emacs. Specifically, someone who 
+most likely:
+1) Has used Vim in the past and got used to the keybindings 
+2) Wants to avoid "Emacs pinky" for hypochondriac reasons 
 
 ## Installation
 ### Prerequisites
