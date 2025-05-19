@@ -1,6 +1,18 @@
-<div align="center"> 
+<div align="center">
   
-# Rune Emacs
+  # Rune Emacs
 
 </div>
-This is what will eventually become RuneMacs (pronounced "roon eemacks").
+
+## Introduction
+This is what will eventually become RuneMacs (pronounced "roon eemacks"). For now, it's basically
+just a config file. I'm...actually a little unclear on what the license is even for...it might
+not even have a purpose. In any case, it has one thing going for it at the moment: a very easy
+"installation" process.
+
+## Introduction
+
+This is what will eventually become RuneMacs (pronounced "roon eemacks"). For now, it's basically
+just a config file. I'm...actually a little unclear on what the license is even for...it might
+not even have a purpose. In any case, it has one thing going for it at the moment: a very easy
+"installation" process.
