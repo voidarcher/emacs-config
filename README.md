@@ -22,7 +22,7 @@ This is essentially meant to be an absolute noob's version of Emacs. Specificall
 most likely:
 1) Has used Vim in the past and got used to the keybindings 
 2) Wants to avoid "Emacs pinky" for hypochondriac reasons
-3) You've tried Emacs and already miss sane finger movement
+3) Has tried Emacs and already misses sane finger movement
 
 ### Prerequisites
 The only real requirement is [GNU Emacs](https://www.gnu.org/software/emacs/). Other than that, 
