@@ -4,6 +4,8 @@
 
 </div>
 
+---
+
 <div align="center">
 
   ...Image TBD...
@@ -11,6 +13,7 @@
 </div>
 
 ---
+
 ### Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
