@@ -44,7 +44,7 @@ cd tmp/
 ```
 After that, you'll want to clone this github repo into your empty ~/tmp directory.
 ```sh
-git clone https://github.com/voidarcher/RuneMacs.git 
+git clone https://github.com/voidarcher/RuneMacs.git ~/tmp
 ```
 Now, you should have everything you need in your ~/tmp directory. Make sure you have an 
 .emacs.d directory. (If not, create it with mkdir, but it should be created automatically 
