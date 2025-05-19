@@ -13,7 +13,7 @@
 ---
 
 ## Introduction
-This is what will eventually become **RuneMacs** (or maybe some other spelling). For now, it's 
+This is what will eventually become **Rune Emacs** (or maybe some other spelling). For now, it's 
 basically just a config file. I'm...actually a little unclear on what the license is even 
 for...it might not even have a purpose. In any case, it has one thing going for it at the moment: 
 a very easy "installation" process. 
@@ -67,4 +67,5 @@ x." To finish up this installation, in Emacs type:
 ```sh
 M-x package-refresh-contents RET
 ```
-((Note that the RET means <ENTER>.))
+Now, you should be up and running! Idk. I'll probably just make a script for most of this
+stuff, it's getting less and less newbie-friendly by the line. 
