@@ -20,9 +20,9 @@ a very easy "installation" process.
 
 This is essentially meant to be an absolute noob's version of Emacs. Specifically, someone who 
 most likely:
-o Has used Vim in the past and got used to the keybindings 
-o Wants to avoid "Emacs pinky" for paranoid reasons
-o Has tried Emacs and already misses sane finger movement
+* Has used Vim in the past and got used to the keybindings
+* Wants to avoid "Emacs pinky" for paranoid reasons
+* Has tried Emacs and already misses sane finger movement
 
 ### Prerequisites
 The only real requirement is [GNU Emacs](https://www.gnu.org/software/emacs/). Other than that, 
