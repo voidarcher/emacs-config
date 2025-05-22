@@ -1,2 +1,14 @@
-Figure out error messages on first startup
-Make start page
+  _____ ___  ___   ___    _    ___ ___ _____ 
+ |_   _/ _ \|   \ / _ \  | |  |_ _/ __|_   _|
+   | || (_) | |) | (_) | | |__ | |\__ \ | |  
+   |_| \___/|___/ \___/  |____|___|___/ |_|  
+----------------------------------------------------
+
+[ ] Figure out error messages on first startup
+[ ] Make start page 
+    - Have easy commands available
+    - Start message? 
+[ ] Create Rune theme
+[ ] Think of other default packages 
+    - Some kind of status line? 
+    - Treemacs? 
