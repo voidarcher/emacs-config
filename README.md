@@ -24,9 +24,9 @@ most likely:
 * Wants to avoid "Emacs pinky" for paranoid reasons
 
 ### Prerequisites
-The main requirement is [GNU Emacs](https://www.gnu.org/software/emacs/) (please note that this
-program has only been tested on Emacs 28.2+). You will also need *git* installed on your system.
-Other than that, you really don't need anything else, though please note that this is a Linux-only 
+The main requirement is **[GNU Emacs]**(https://www.gnu.org/software/emacs/) (please note that this
+program has only been tested on Emacs 28.2+). You will also need **git** installed on your system.
+Other than that, you really don't need anything else, though please note that this is a **Linux-only** 
 program (though it might work fine on MacOS). Remember, this is meant to be Emacs for someone who 
 really doesn't know how to get started. At least at this point. There really isn't much going on 
 under the hood right now, since that would defeat the purpose somewhat. 
