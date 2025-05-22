@@ -1,6 +1,6 @@
 <div align="center">
 
-# RUNE EMACS
+# Rune Emacs
 
   ...Image TBD...
   
