@@ -30,9 +30,11 @@ echo "----------------------------------------------------"
 
 # Cleanup
 echo "Cleaning up ~/$EMACSDIR..."
-rm -rf ./.git LICENSE README.md
+rm -rf ./.git install.sh LICENSE README.md TODO 
 
 # Welcome message 
 echo ""
 echo "Welcome to RUNE EMACS!"
 echo "Now, please open Emacs and allow the syncing to occur!"
+
+cd
