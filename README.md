@@ -14,8 +14,7 @@
 
 ## Introduction
 This is what will eventually become **Rune Emacs** (or maybe some other spelling). For now, it's 
-basically just a few config files and a rudimentary installer. I'm...actually a little unclear on 
-what the license is even for...it might not even have a purpose. In any case, it has one thing 
+basically just a few config files and a rudimentary installer. In any case, it has one thing 
 going for it at the moment: a very easy "installation" process. 
 
 This is essentially meant to be an absolute noob's version of Emacs. Specifically, someone who 
