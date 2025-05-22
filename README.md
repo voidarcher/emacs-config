@@ -30,6 +30,8 @@ you really don't need anything else. Remember, this is meant to be Emacs for som
 doesn't know how to get started. At least at this point. There really isn't much going on under 
 the hood right now, since that would defeat the purpose somewhat. 
 
+git! You need git! 
+
 To install Emacs, you should use whatever package manager your distribution uses and install
 it through the command line. For example:
 
@@ -53,4 +55,28 @@ sudo pacman -Syu emacs
 to it tomorrow. Probably.)
 
 The easiest way to install this is to simply use the script included in this GitHub repo. You 
-can download it yourself by clicking on the ```sh install.sh ```
+can download it yourself by clicking on the ```install.sh``` file above and clicking the button 
+marked "Download raw file." in the upper-right corner. 
+
+Now, you'll have to make it an executable. Do this with the ```chmod``` command:
+```sh
+chmod +x install.sh
+```
+
+Finally, you're ready to run the installation! Do this with the command:
+```sh
+./install.sh [ENTER]
+```
+
+Now, Rune Emacs should install itself on your system. Once it's done, open up Emacs and let
+it sync with the init.el file. This should only take a few seconds. (Please note that this
+requires an internet connection.) 
+
+Once that's done, you're good to go!
+
+(Please ignore the error messages on your first startup. I'm working on getting rid of those.)
+
+
+
+
+
