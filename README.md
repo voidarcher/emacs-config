@@ -21,7 +21,8 @@ This is essentially meant to be an absolute noob's version of Emacs. Specificall
 most likely:
 * Has some familiarity with Linux, with little-to-no experience with the CLI
 * Has used Vim in the past and is familiar with the keybindings
-* Wants to make the switch to Emacs as painlessly as possible 
+* Wants to make the switch to Emacs as painlessly as possible
+* Wants a simple, easy Emacs setup without too many add-ons 
 
 ### Prerequisites
 The main requirement is **[GNU Emacs](https://www.gnu.org/software/emacs/)** (please note that this
@@ -66,7 +67,7 @@ chmod +x install.sh
 
 Finally, you're ready to run the installation! Do this with the command:
 ```sh
-./install.sh [ENTER]
+./install.sh
 ```
 
 Now, Rune Emacs should install itself on your system. Once it's done, open up Emacs and let
