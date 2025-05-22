@@ -19,9 +19,9 @@ going for it at the moment: a very easy "installation" process.
 
 This is essentially meant to be an absolute noob's version of Emacs. Specifically, someone who 
 most likely:
-* Is a little familiar with Linux
-* Has used Vim in the past and got used to the keybindings
-* Wants to avoid "Emacs pinky" for paranoid reasons
+* Has some familiarity with Linux, with little-to-no experience with the CLI
+* Has used Vim in the past and is familiar with the keybindings
+* Wants to make the switch to Emacs as painlessly as possible 
 
 ### Prerequisites
 The main requirement is **[GNU Emacs](https://www.gnu.org/software/emacs/)** (please note that this
