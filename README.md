@@ -14,23 +14,23 @@
 
 ## Introduction
 This is what will eventually become **Rune Emacs** (or maybe some other spelling). For now, it's 
-basically just a config file. I'm...actually a little unclear on what the license is even 
-for...it might not even have a purpose. In any case, it has one thing going for it at the moment: 
-a very easy "installation" process. 
+basically just a few config files and a rudimentary installer. I'm...actually a little unclear on 
+what the license is even for...it might not even have a purpose. In any case, it has one thing 
+going for it at the moment: a very easy "installation" process. 
 
 This is essentially meant to be an absolute noob's version of Emacs. Specifically, someone who 
 most likely:
+* Is a little familiar with Linux
 * Has used Vim in the past and got used to the keybindings
 * Wants to avoid "Emacs pinky" for paranoid reasons
-* Has tried Emacs and already misses sane finger movement
 
 ### Prerequisites
-The only real requirement is [GNU Emacs](https://www.gnu.org/software/emacs/). Other than that, 
-you really don't need anything else. Remember, this is meant to be Emacs for someone who really 
-doesn't know how to get started. At least at this point. There really isn't much going on under 
-the hood right now, since that would defeat the purpose somewhat. 
-
-git! You need git! 
+The main requirement is [GNU Emacs](https://www.gnu.org/software/emacs/) (please note that this
+program has only been tested on Emacs 28.2+). You will also need *git* installed on your system.
+Other than that, you really don't need anything else, though please note that this is a Linux-only 
+program (though it might work fine on MacOS). Remember, this is meant to be Emacs for someone who 
+really doesn't know how to get started. At least at this point. There really isn't much going on 
+under the hood right now, since that would defeat the purpose somewhat. 
 
 To install Emacs, you should use whatever package manager your distribution uses and install
 it through the command line. For example:
@@ -49,6 +49,8 @@ sudo dnf install emacs
 ```sh
 sudo pacman -Syu emacs
 ```
+
+The instructions for installing Git are identical, just switch out ```emacs``` with ```git```.
 
 ### Installation
 (Full discolure: if you're reading this, I haven't actually *tested* this out yet. I'll get 
@@ -76,7 +78,9 @@ Once that's done, you're good to go!
 
 (Please ignore the error messages on your first startup. I'm working on getting rid of those.)
 
-
-
-
+### Notes
+* This has only been tested on Arch Linux and Debian 12 Stable (Bookworm)
+* This has only been tested on Emacs 28.2+ (Specifically, 28.2 and 30.1)
+* This program does not require sudo; it only affects files in your $HOME directory
+* It assumes that you are using ~/.emacs.d as your Emacs configuration directory  
 
