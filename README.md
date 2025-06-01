@@ -75,7 +75,7 @@ Once that's done, you're good to go!
 (Please ignore the error messages on your first startup. I'm working on getting rid of those.)
 
 ### Notes
-* This has only been tested on Arch Linux and Debian 12 Stable (Bookworm)
+* This has only been tested on Arch Linux, Gentoo, and Debian 12 Stable (Bookworm)
 * This has only been tested on Emacs 28.2+ (Specifically, 28.2 and 30.1)
 * This program does not require sudo; it only affects files in your $HOME directory
 * It assumes that you are using ~/.emacs.d as your Emacs configuration directory
