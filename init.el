@@ -203,6 +203,6 @@
   :config (treemacs-set-scope-type 'Tabs))
 
 ;; Uncomment to make treemacs start on boot
-; (treemacs-start-on-boot)
+(treemacs-start-on-boot)
 
 ;; Good luck, fellow human.
