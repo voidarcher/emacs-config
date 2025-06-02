@@ -1,3 +1,5 @@
+ ;;; -*- lexical-binding: t; -*-
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Rune Emacs Configuration File!                                             ;;
 ;; Written by Bisshoy Anwar                                                   ;;
