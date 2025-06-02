@@ -1,14 +1,10 @@
- ;;; -*- lexical-binding: t; -*-
+;;; init.el --- Init File for Rune Emacs -*- lexical-binding: t; -*- 
+;; 
+;; Rune Emacs Configuration File!
+;; Written by Bisshoy Anwar
+;; 18 May 2025
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Rune Emacs Configuration File!                                             ;;
-;; Written by Bisshoy Anwar                                                   ;;
-;; 18 May 2025                                                                ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; GENERAL CONFIGURATIONS                                                     ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; GENERAL CONFIGURATIONS ------------------------------------------------------
 
 ;; FULLSCREEN WINDOW ON STARTUP
 (add-hook 'window-setup-hook 'toggle-frame-maximized t)
@@ -46,10 +42,7 @@
     (other-window 1)
     (term "/bin/bash")))
 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; CODING CONFIGURATIONS                                                      ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; CODING CONFIGURATIONS -------------------------------------------------------
 
 ;; SET PYTHON TAB WIDTH TO 4
 (defun my/setup-python-indent ()
@@ -64,10 +57,7 @@
 (add-hook 'c-mode-hook #'my/setup-c-indent)
 (add-hook 'c++-mode-hook #'my/setup-c-indent)
 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; PACKAGE CONFIGURATIONS                                                     ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PACKAGE CONFIGURATIONS ------------------------------------------------------
 
 ;; SEND CUSTOM-SET-VARIABLES TO ~/.emacs.d/custom.el file by default
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
